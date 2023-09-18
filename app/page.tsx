@@ -3,7 +3,9 @@ import Image from 'next/image'
 export default function Home() {
   // This server component will load in data
 
-  //Text input will filter Pokemon card under it
+  // We will then pass in that data to a client component
+
+  //Text("use client") input will filter Pokemon card under it, we need useState for this
 
 
   return (
