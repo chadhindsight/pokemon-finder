@@ -18,6 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ThemeProvider attribute="class" defaultTheme="dark">
+        <main className="flex min-h-screen flex-col items-center p-24">
+          <div className="z-10 max-w-5xl w-full items-center justify-betwee text-sm lg:flex">
+            <h2 className='text-2xl'>Pokemon Finder</h2>
+          </div>
+        </main>
         <body className={inter.className}>{children}</body>
       </ThemeProvider>
     </html>
