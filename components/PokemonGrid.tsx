@@ -4,8 +4,6 @@ import { useState } from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 
-// <PokemonGrid pokemonList={data}/>
-
 interface PokemonGridProps {
     pokemonList: any
 }
