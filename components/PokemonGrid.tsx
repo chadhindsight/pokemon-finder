@@ -5,7 +5,7 @@ import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 
 interface PokemonGridProps {
-    pokemonList: any
+    pokemonList: Array<{ name: string, url: string }>
 }
 
 export function PokemonGrid({ pokemonList }: PokemonGridProps) {
