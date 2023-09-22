@@ -1,6 +1,5 @@
 import { PokemonGrid } from '@/components/PokemonGrid';
 import { getPokemonList } from '@/lib/pokemonAPI'
-import Image from 'next/image'
 
 export default async function Home() {
   // This server component will load in data
