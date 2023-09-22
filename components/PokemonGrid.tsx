@@ -20,10 +20,7 @@ export function PokemonGrid({ pokemonList }: PokemonGridProps) {
         )
     }
 
-    // save the filtered array of objects
     const filteredPokemonList = searchFilter(pokemonList);
-
-    // show the filtered array to user
 
     return (
         <>
