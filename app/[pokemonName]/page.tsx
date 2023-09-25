@@ -11,7 +11,7 @@ export default async function PokemonPage({ params }: { params: { pokemonName: s
 
     return (
         <>
-            <h1 className="text-4xl text-bold pt-4">{pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1)}</h1>
+            <h1 className="text-4xl text-bold pt-4">{`${pokemonName.charAt(0).toUpperCase()} ${pokemonName.slice(1)}`}</h1>
             <div className="m-4" style={{ position: "relative", width: '300px', height: '300px' }}>
                 <PokemonImage
                     image={pokemonObject.sprites.other['official-artwork'].front_default}
