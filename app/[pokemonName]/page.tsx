@@ -1,6 +1,4 @@
 import { getPokemon } from "@/lib/pokemonAPI";
-import Image from "next/image";
-// import { PokemonImage } from "@/components/pokemon-image";
 import { Progress } from "@/components/ui/progress";
 import { PokemonImage } from "@/components/PokemonImage";
 
