@@ -13,7 +13,6 @@ export function PokemonGrid({ pokemonList }: PokemonGridProps) {
 
     console.log(pokemonList);
     // filter the text
-    // {name: "pikachu", url:""}
     const searchFilter = (pokemonList: any) => {
         return pokemonList.filter(
             (pokemon: any) => pokemon.name.toLowerCase().includes(searchText.toLowerCase())
